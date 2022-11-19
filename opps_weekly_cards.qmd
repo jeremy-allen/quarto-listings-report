@@ -45,3 +45,7 @@ listing:
 :::
 
 :::
+
+<br>
+
+[code on github](https://github.com/jeremy-allen/quarto-listings-report)
