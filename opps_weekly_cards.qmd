@@ -1,0 +1,47 @@
+---
+title: "Lovelace Weekly Ops Report"
+subtitle: "last 7 days, next 7 days"
+date: "Published: `r format(Sys.time(), '%d %B, %Y', tz='America/New_York', usetz = TRUE)`"
+format: html
+listing:
+  - id: opps1
+    contents: opps1.yml
+    type: grid
+    categories: true
+    filter-ui: true
+    sort:
+      - "license-start-date"
+    sort-ui: [license-start-date]
+    max-description-length: 800
+    field-types: 
+      license-start-date: date
+      close-date: date
+  - id: opps2
+    contents: opps2.yml
+    type: grid
+    categories: true
+    filter-ui: true
+    sort:
+      - "license-start-date"
+    sort-ui: [license-start-date]
+    max-description-length: 800
+    field-types: 
+      license-start-date: date
+      close-date: date
+---  
+
+<br>
+
+::: {.panel-tabset}
+
+## Last 7 Days
+
+::: {#opps1 .column-body}
+:::
+
+## Next 7 days
+
+::: {#opps2 .column-body}
+:::
+
+:::

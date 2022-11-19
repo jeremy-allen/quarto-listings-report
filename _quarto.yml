@@ -1,0 +1,5 @@
+project:
+  type: website
+theme:
+  light: [simplex, custom.scss]
+fontsize: .85em

@@ -1,0 +1,77 @@
+/*-- scss:defaults --*/
+
+body {
+  color: rgba(23,33,43,.62) !important;
+}
+
+h1,h2,h3,h5 {
+  color: #222222 !important;
+}
+
+/*-- scss:rules --*/
+
+.listing-title {
+  font-size: .65em !important;
+  font-weight: 700 !important;
+}
+
+.listing-subtitle {
+  font-size: .9em;
+}
+
+.listing-description::-webkit-scrollbar {
+  background: #EEEEEE !important; 
+  width: 4px !important;
+}
+
+.listing-description::-webkit-scrollbar-thumb {
+  background-color: rgba(68,112,153,.6) !important;
+  border-radius: 24px;
+}
+
+.listing-description {
+  height: 100px !important;
+  overflow-y: auto !important;
+}
+
+.listing-category {
+  color: #EE6331 !important;
+  background: #EEEEEE !important;
+}
+
+.card {
+  border: 1px solid rgba(68,112,153,.4) !important;
+}
+
+.nav-link {
+  color: #EE6331 !important;
+}
+
+.nav-link.active {
+  border-top: 1px solid rgba(68,112,153,.4) !important;
+  border-left: 1px solid rgba(68,112,153,.4) !important;
+  border-right: 1px solid rgba(68,112,153,.4) !important;
+  border-bottom: 1px solid rgba(68,112,153,.4) !important;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid rgba(68,112,153,.4) !important;
+}
+
+.nav-link:hover {
+  color: #EE6331 !important;
+}
+
+.input-group-text, .form-control,  {
+  border: 1px solid rgba(68,112,153,.4) !important;
+  color: 1px solid rgba(68,112,153,.4) !important;
+}
+
+.form-select {
+  color: rgba(23,33,43,.62) !important;
+}
+
+.form-select:focus, .form-control:focus {
+  border-color: #EE6331 !important;
+  box-shadow: none !important;
+}
