@@ -3,6 +3,5 @@
 .RData
 .Ruserdata
 _publish.yml
-_site/
 rsconnect/
 /.quarto/
