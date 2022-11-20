@@ -1,5 +1,6 @@
 project:
   type: website
+include-in-header: heading-meta.html
 theme:
   light: [simplex, custom.scss]
 fontsize: .85em
