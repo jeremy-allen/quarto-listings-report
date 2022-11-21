@@ -3,6 +3,7 @@ project:
   
 website: 
   title: "Lovelace Weekly Ops Report"
+  site-url: "https://jeremydata.quarto.pub/quarto-custom-listing-cards"
   favicon: fav.png
   twitter-card:
     title: "Lovelace Weekly Ops Report"
