@@ -1,5 +1,7 @@
 project:
   type: website
+  resources:
+    - "/preview.png"
   
 website: 
   title: "Lovelace Weekly Ops Report"
