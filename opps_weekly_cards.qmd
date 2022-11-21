@@ -3,21 +3,6 @@ title: "Lovelace Weekly Ops Report"
 subtitle: "last 7 days, next 7 days"
 date: "Published: `r format(Sys.time(), '%d %B, %Y', tz='America/New_York', usetz = TRUE)`"
 format: html
-resources:
-    - "preview.png"
-twitter-card:
-    title: "Lovelace Weekly Ops Report"
-    description: "Custom Quarto Listing Cards"
-    image: "preview.png"
-    card-style: "summary_large_image"
-    creator: "@jeremy_data"
-    site: "@jeremy_data"
-open-graph:
-    title: "Lovelace Weekly Ops Report"
-    description: "Custom Quarto Listing Cards"
-    image: "preview.png"
-    locale: "es_ES"
-    site-name: "Lovelace Weekly Ops Report"
 listing:
   - id: opps1
     contents: opps1.yml

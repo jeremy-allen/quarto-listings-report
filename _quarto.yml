@@ -1,12 +1,23 @@
 project:
   type: website
-  resources:
-    - "/preview.png"
   
 website: 
   title: "Lovelace Weekly Ops Report"
   site-url: "https://jeremydata.quarto.pub/quarto-custom-listing-cards"
   favicon: fav.png
+  twitter-card:
+    title: "Lovelace Weekly Ops Report"
+    description: "Custom Quarto Listing Cards"
+    image: "/preview.png"
+    card-style: "summary_large_image"
+    creator: "@jeremy_data"
+    site: "@jeremy_data"
+  open-graph:
+    title: "Lovelace Weekly Ops Report"
+    description: "Custom Quarto Listing Cards"
+    image: "/preview.png"
+    locale: "es_ES"
+    site-name: "Lovelace Weekly Ops Report"
 
 format:
   html:
