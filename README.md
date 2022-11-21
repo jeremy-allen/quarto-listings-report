@@ -1,5 +1,7 @@
 # quarto-listings-report
 
+[See the report!](https://jeremydata.quarto.pub/quarto-custom-listing-cards/opps_weekly_cards.html)
+
 ## Why use cards in a report?
 
 - Often tables of data are too wide to easily read in a quick meeting
