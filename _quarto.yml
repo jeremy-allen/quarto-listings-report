@@ -8,14 +8,14 @@ website:
   twitter-card:
     title: "Lovelace Weekly Ops Report"
     description: "Custom Quarto Listing Cards"
-    image: "https://github.com/jeremy-allen/quarto-listings-report/blob/main/preview.png"
+    image: "https://github.com/jeremy-allen/quarto-listings-report/blob/1f016fff7a6f87f4d02a6787a38813c7ba93b48c/preview.png"
     card-style: summary_large_image
     creator: "@jeremy_data"
     site: "@jeremy_data"
   open-graph:
     title: "Lovelace Weekly Ops Report"
     description: "Custom Quarto Listing Cards"
-    image: "https://github.com/jeremy-allen/quarto-listings-report/blob/main/preview.png"
+    image: "https://github.com/jeremy-allen/quarto-listings-report/blob/1f016fff7a6f87f4d02a6787a38813c7ba93b48c/preview.png"
     locale: es_ES
     site-name: "Lovelace Weekly Ops Report"
 
