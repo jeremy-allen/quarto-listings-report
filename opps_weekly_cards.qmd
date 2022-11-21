@@ -3,6 +3,7 @@ title: "Lovelace Weekly Ops Report"
 subtitle: "last 7 days, next 7 days"
 date: "Published: `r format(Sys.time(), '%d %B, %Y', tz='America/New_York', usetz = TRUE)`"
 format: html
+image: "/preview.png"
 listing:
   - id: opps1
     contents: opps1.yml
