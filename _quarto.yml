@@ -1,6 +1,25 @@
 project:
   type: website
-include-in-header: heading-meta.html
-theme:
-  light: [simplex, custom.scss]
-fontsize: .85em
+  
+website: 
+  title: "Lovelace Weekly Ops Report"
+  favicon: fav.png
+  twitter-card:
+    title: "Lovelace Weekly Ops Report"
+    description: "Custom Quarto Listing Cards"
+    image: index-img.png
+    card-style: summary_large_image
+    creator: "@jeremy_data"
+    site: "@jeremy_data"
+  open-graph:
+    title: "Lovelace Weekly Ops Report"
+    description: "Custom Quarto Listing Cards"
+    image: index-img.png
+    locale: es_ES
+    site-name: "Lovelace Weekly Ops Report"
+
+format:
+  html:
+    theme:
+       light: [simplex, custom.scss]
+    fontsize: .85em
