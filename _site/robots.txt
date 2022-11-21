@@ -1,1 +1,1 @@
-Sitemap: https://jeremydata.quarto.pub/quarto-custom-listing-cards/sitemap.xml
+Sitemap: https://quartopub.com/sites/jeremydata/quarto-custom-listing-cards/sitemap.xml
