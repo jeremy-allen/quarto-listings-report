@@ -8,14 +8,14 @@ website:
   twitter-card:
     title: "Lovelace Weekly Ops Report"
     description: "Custom Quarto Listing Cards"
-    image: index-img.png
+    image: "https://jeremydata.quarto.pub/quarto-custom-listing-cards/preview.png"
     card-style: summary_large_image
     creator: "@jeremy_data"
     site: "@jeremy_data"
   open-graph:
     title: "Lovelace Weekly Ops Report"
     description: "Custom Quarto Listing Cards"
-    image: index-img.png
+    image: "https://jeremydata.quarto.pub/quarto-custom-listing-cards/preview.png"
     locale: es_ES
     site-name: "Lovelace Weekly Ops Report"
 
@@ -23,4 +23,4 @@ format:
   html:
     theme:
        light: [simplex, custom.scss]
-    fontsize: .85em
+    fontsize: .9em
