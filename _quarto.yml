@@ -10,4 +10,5 @@ format:
   html:
     theme:
        light: [simplex, custom.scss]
+       dark: [slate, custom_dark.scss]
     fontsize: .9em

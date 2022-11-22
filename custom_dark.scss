@@ -5,11 +5,11 @@
 /*-- scss:rules --*/
 
 body {
-  color: rgba(23,33,43,.62) !important;
+  color: #bdcddb !important;
 }
 
 h1,h2,h3,h5 {
-  color: #222222 !important;
+  color: #eef2f6 !important;
 }
 
 .listing-title {
@@ -37,8 +37,8 @@ h1,h2,h3,h5 {
 }
 
 .listing-category {
-  color: #EE6331 !important;
-  background: #EEEEEE !important;
+  color: #FFFFFF !important;
+  background: #5b82a4 !important;
 }
 
 .card {
@@ -76,13 +76,6 @@ h1,h2,h3,h5 {
 .form-select:focus, .form-control:focus {
   border-color: #EE6331 !important;
   box-shadow: none !important;
-}
-
-.source {
-  margin: auto !important;
-  text-align: center !important;
-  width: 160px !important;
-  padding-top: 8px !important;
 }
 
 .source a, .source a:hover {
