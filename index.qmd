@@ -24,7 +24,7 @@ listing:
     filter-ui: true
     sort:
       - "license-start-date"
-    sort-ui: [license-start-date]
+    sort-ui: [license-start-date, close-date]
     max-description-length: 800
     field-types: 
       license-start-date: date
@@ -36,18 +36,16 @@ listing:
     filter-ui: true
     sort:
       - "license-start-date"
-    sort-ui: [license-start-date]
+    sort-ui: [license-start-date, close-date]
     max-description-length: 800
     field-types: 
       license-start-date: date
       close-date: date
-
----  
+---
 
 <br>
 
-::: {.panel-tabset}
-
+::: panel-tabset
 ## Last 7 Days
 
 ::: {#opps1 .column-body}
@@ -57,9 +55,8 @@ listing:
 
 ::: {#opps2 .column-body}
 :::
-
 :::
 
-::: {.source}
+::: source
 [code on github](https://github.com/jeremy-allen/quarto-listings-report)
 :::

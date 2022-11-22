@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-author','listing-stage','listing-license-start-date','listing-close-date','listing-amount','listing-qtr-prob','listing-risk','listing-categories','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-license-start-date-sort'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-author','listing-stage','listing-license-start-date','listing-close-date','listing-amount','listing-qtr-prob','listing-risk','listing-categories','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-license-start-date-sort'] },{ data: ['listing-close-date-sort'] }],
       
       searchColumns: ["listing-title","listing-subtitle","listing-author","listing-stage","listing-license-start-date","listing-close-date","listing-amount","listing-qtr-prob","listing-risk","listing-categories","listing-description"],
     };
@@ -101,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-author','listing-stage','listing-license-start-date','listing-close-date','listing-amount','listing-qtr-prob','listing-risk','listing-categories','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-license-start-date-sort'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-author','listing-stage','listing-license-start-date','listing-close-date','listing-amount','listing-qtr-prob','listing-risk','listing-categories','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-license-start-date-sort'] },{ data: ['listing-close-date-sort'] }],
       
       searchColumns: ["listing-title","listing-subtitle","listing-author","listing-stage","listing-license-start-date","listing-close-date","listing-amount","listing-qtr-prob","listing-risk","listing-categories","listing-description"],
     };
@@ -194,6 +194,12 @@ ul.task-list li input[type="checkbox"] {
         </option>
          <option value="listing-license-start-date-sort" data-direction="desc">
           license-start-date - Newest
+        </option>
+         <option value="listing-close-date-sort" data-direction="asc">
+          close-date - Oldest
+        </option>
+         <option value="listing-close-date-sort" data-direction="desc">
+          close-date - Newest
         </option>
      </select>
   </div>
@@ -775,6 +781,12 @@ No matching items
         </option>
          <option value="listing-license-start-date-sort" data-direction="desc">
           license-start-date - Newest
+        </option>
+         <option value="listing-close-date-sort" data-direction="asc">
+          close-date - Oldest
+        </option>
+         <option value="listing-close-date-sort" data-direction="desc">
+          close-date - Newest
         </option>
      </select>
   </div>
