@@ -1,6 +1,6 @@
 # quarto-listings-report
 
-[See the report!](https://jeremydata.quarto.pub/quarto-custom-listing-cards/opps_weekly_cards.html)
+[See the report!](https://jeremydata.quarto.pub/lovelace-weekly-ops-report/)
 
 ## Why use cards in a report?
 
