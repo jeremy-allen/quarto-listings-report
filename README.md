@@ -11,7 +11,7 @@
 
 ## What is different here?
 
-Using a modified quarto listings page as a report instead of a blog landing page. In the `custom.scss` file I added a scroll bar to the card description field to allow for longer text in the field. In the `opps_weekly_cards.qmd` I set a new max description length in the YAML of each listings definition.
+Using a modified quarto listings page as a report instead of a blog landing page. In the `custom.scss` file I added a scroll bar to the card description field to allow for longer text in the field. In the `index.qmd` I set a new max description length in the YAML of each listing definition.
 
 ## Can I use this?
 Yes. However, in this demo project the content for the cards is coming from handmade files `opps1.yml` and `opps2.yml`. In a real-world project, chances are my data will be in a data frame or tibble. I would then use the [yaml](https://github.com/vubiostat/r-yaml) package to convert the data frame to yaml for me.
