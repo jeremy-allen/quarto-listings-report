@@ -1,6 +1,6 @@
 # quarto-listings-report
 
-[See the report!](https://jeremydata.quarto.pub/lovelace-weekly-ops-report/)
+**-->> [See the report!](https://jeremydata.quarto.pub/lovelace-weekly-ops-report/)
 
 ## Why use cards in a report?
 
