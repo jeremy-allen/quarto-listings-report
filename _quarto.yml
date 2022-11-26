@@ -9,6 +9,5 @@ website:
 format:
   html:
     theme:
-       light: [simplex, custom.scss]
-       dark: [slate, custom_dark.scss]
-    fontsize: .9em
+       light: [flatly, custom.scss]
+       dark: [flatly, custom_dark.scss]

@@ -1,15 +1,34 @@
 /*-- scss:defaults --*/
 
+$dark-blue: #213D4F !default;
+$darkest-blue: #17212B !default;
+$light-blue: #A2B8CB !default; 
+$lightest-blue: #D1DBE5 !default;
+$light-orange: #E58066 !default;
+$bright-orange: #EE6331 !default;
+$green: #8AA67A !default;
 
+$font-family-sans-serif: Open-Sans !default;
+$font-family-monospace: Source-Code-Pro !default;
+
+$body-bg: $dark-blue !default;
+$body-color: $lightest-blue !default;
+$link-color: $light-orange !default;
+$navbar-bg: $darkest-blue !default;
+$navbar-fg: $lightest-blue !default;
+$navbar-hl: $light-orange !default;
 
 /*-- scss:rules --*/
 
 body {
-  color: #bdcddb !important;
+  color: $lightest-blue !important;
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: .9em !important;
 }
 
-h1,h2,h3,h5 {
-  color: #eef2f6 !important;
+h1,h2,h3,h4,h5 {
+  color: $lightest-blue !important;
+  font-weight: 200 !important;
 }
 
 .listing-title {
@@ -18,7 +37,7 @@ h1,h2,h3,h5 {
 }
 
 .listing-subtitle {
-  font-size: .9em;
+  font-size: .9em !important;
 }
 
 .listing-description::-webkit-scrollbar {
@@ -43,10 +62,11 @@ h1,h2,h3,h5 {
 
 .card {
   border: 1px solid rgba(68,112,153,.4) !important;
+  background-color: $dark-blue;
 }
 
 .nav-link {
-  color: #EE6331 !important;
+  color: $bright-orange !important;
 }
 
 .nav-link.active {
@@ -60,30 +80,36 @@ h1,h2,h3,h5 {
   border-bottom: 1px solid rgba(68,112,153,.4) !important;
 }
 
+.nav-tabs .nav-link:not([disabled]):not(.disabled).active {
+    background-image: none;
+    filter: none;
+}
+
 .nav-link:hover {
-  color: #EE6331 !important;
+  color: $bright-orange !important;
 }
 
 .input-group-text, .form-control,  {
-  border: 1px solid rgba(68,112,153,.4) !important;
-  color: 1px solid rgba(68,112,153,.4) !important;
+  border: 1px solid $lightest-blue !important;
+  color: 1px solid $lightest-blue !important;
 }
 
 .form-select {
-  color: rgba(23,33,43,.62) !important;
+  color: $lightest-blue !important;
+  border-color: $lightest-blue !important;
 }
 
 .form-select:focus, .form-control:focus {
-  border-color: #EE6331 !important;
+  border-color: $bright-orange !important;
   box-shadow: none !important;
 }
 
 .source a, .source a:hover {
-  color: #EE6331 !important;
+  color: $bright-orange !important;
   text-decoration: none !important;
 }
 
 .quarto-grid-item .card-attribution {
-  color: #EE6331 !important;
+  color: $bright-orange !important;
 }
 
