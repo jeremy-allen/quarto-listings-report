@@ -1,8 +1,8 @@
 /*-- scss:defaults --*/
 
 $darkest-blue: #17212B !default;
-$medium-blue: #7494B1 !default;
 $dark-blue: #213D4F !default;
+$medium-blue: #7494B1 !default;
 $light-blue: #A2B8CB !default; 
 $lightest-blue: #D1DBE5 !default;
 $light-orange: #E58066 !default;
@@ -75,14 +75,14 @@ h1,h2,h3,h4,h5 {
 }
 
 .nav-link.active {
-  border-top: 1px solid $dark-blue !important;
-  border-left: 1px solid $dark-blue !important;
-  border-right: 1px solid $dark-blue !important;
-  border-bottom: 1px solid $dark-blue !important;
+  border-top: 1px solid $medium-blue !important;
+  border-left: 1px solid $medium-blue !important;
+  border-right: 1px solid $medium-blue !important;
+  border-bottom: 1px solid $medium-blue !important;
 }
 
 .nav-tabs {
-  border-bottom: 1px solid $dark-blue !important;
+  border-bottom: 1px solid $medium-blue !important;
 }
 
 .nav-link:hover {
@@ -90,17 +90,17 @@ h1,h2,h3,h4,h5 {
 }
 
 .input-group-text, .form-control,  {
-  border: 1px solid $dark-blue !important;
-  color: 1px solid $dark-blue !important;
+  border: 1px solid $medium-blue !important;
+  color: 1px solid $medium-blue !important;
 }
 
 .form-select {
   color: $dark-blue !important;
-  border-color: $dark-blue !important;
+  border-color: $medium-blue !important;
 }
 
 .form-select:focus, .form-control:focus {
-  border-color: $dark-blue !important;
+  border-color: $medium-blue !important;
   box-shadow: none !important;
 }
 
